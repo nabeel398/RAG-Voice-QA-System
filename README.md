@@ -55,13 +55,13 @@ Upload documents → Ask a question by audio → API retrieves context → Llama
 
 ### 1\. Clone the repository
 
-`   git clone https://github.com//.git
+`   git clone https://github.com//.git<br>
     cd <your-repo>` 
 
 ### 2\. Create & activate virtual environment
 
-`   python3 -m venv venv  
-    source venv/bin/activate   # Linux/macOS
+`   python3 -m venv venv  <br>
+    source venv/bin/activate   # Linux/macOS<br>
     venv\Scripts\activate      # Windows   `
 
 ### 3\. Install dependencies
@@ -72,7 +72,7 @@ Upload documents → Ask a question by audio → API retrieves context → Llama
 
 Create a .env file in the project root:
 
-`   ELEVENLABS_API_KEY=your_elevenlabs_key_here
+`   ELEVENLABS_API_KEY=your_elevenlabs_key_here<br>
     GROQ_API_KEY=your_groq_key_here   `
 
 ### 5\. Run the API
