@@ -57,14 +57,12 @@ Upload documents → Ask a question by audio → API retrieves context → Llama
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
----
-
-### 2. Create & activate virtual environment
+### **2. Create & activate virtual environment**
 ```bash
 python3 -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
----
+
 3. Install dependencies
 pip install -r requirements.txt
 
